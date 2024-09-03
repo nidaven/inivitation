@@ -63,14 +63,14 @@ export default function Component() {
                 6-7 Brindley Pl, Birmingham B1 2HS
               </span>
               <br />
-              <span className="text-base">September 5th, 7:00 PM</span>
+              <span className="text-base">September 5th, 7:45 PM</span>
             </p>
 
             <div className="text-yellow-100">
               <p className="mt-6 text-sm text-muted-foreground font-light font-sans text-yellow-100 text-opacity-40 ">
                 Roses are red, Violets are blue,
                 <br />
-                Let's count down the moments 'til our rendezvous
+                Let&apos;s count down the moments &apos;til our rendezvous
               </p>
 
               <div className="mt-2 flex justify-center items-center space-x-4 text-yellow-800 opacity-30 ">
@@ -86,7 +86,7 @@ export default function Component() {
                 ))}
               </div>
               <p className="mt-4 text-sm text-muted-foreground font-light font-sans text-yellow-100 text-opacity-40">
-                A night out with you, Mione, <br /> we'll talk about horseys, puppies, sunsets <br /> and a heist of your heart
+                A night out with you, Mione, <br /> we&apos;ll talk about horseys, puppies, sunsets <br /> and a heist of your heart
                 forever.
               </p>
             </div>
