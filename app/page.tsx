@@ -67,13 +67,13 @@ export default function Component() {
             </p>
 
             <div className="text-yellow-100">
-              <p className="mt-6 text-sm text-muted-foreground font-light font-sans text-yellow-100">
+              <p className="mt-6 text-sm text-muted-foreground font-light font-sans text-yellow-100 text-opacity-40 ">
                 Roses are red, Violets are blue,
                 <br />
                 Let's count down the moments 'til our rendezvous
               </p>
 
-              <div className="mt-2 flex justify-center items-center space-x-4 text-yellow-800">
+              <div className="mt-2 flex justify-center items-center space-x-4 text-yellow-800 opacity-30 ">
                 {Object.entries(timeLeft).map(([unit, value]) => (
                   <div key={unit} className="flex flex-col items-center">
                     <span className="text-3xl font-bold text-primary font-serif">
@@ -85,9 +85,9 @@ export default function Component() {
                   </div>
                 ))}
               </div>
-              <p className="mt-4 text-sm text-muted-foreground font-light font-sans text-yellow-100">
-                We'll talk about horseys, puppies, sunsets <br /> and the
-                possibility of forever more
+              <p className="mt-4 text-sm text-muted-foreground font-light font-sans text-yellow-100 text-opacity-40">
+                A night out with you, Mione, <br /> we'll talk about horseys, puppies, sunsets <br /> and a heist of your heart
+                forever.
               </p>
             </div>
           </div>
